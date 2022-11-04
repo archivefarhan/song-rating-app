@@ -1,0 +1,14 @@
+### INDEX
+GET http://localhost:3000/songs
+
+### SHOW
+GET http://localhost:3000/songs/4
+
+### CREATE
+POST http://localhost:3000/songs
+
+### UPDATE
+PATCH http://localhost:3000/songs/4
+
+### DESTROY
+DELETE http://localhost:3000/songs/4

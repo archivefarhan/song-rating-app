@@ -1,6 +1,6 @@
 class SongsController < ApplicationController
   def index
-    @song = Song.all
+    @songs = Song.all
     render template: "songs/index"
   end
 

@@ -1,14 +1,28 @@
 ### INDEX
-GET http://localhost:3000/songs
+GET http://localhost:3000/songs.json
 
 ### SHOW
-GET http://localhost:3000/songs/4
+GET http://localhost:3000/songs/5.json
 
 ### CREATE
-POST http://localhost:3000/songs
+POST http://localhost:3000/songs.json
+Content-Type: application/json
+
+{
+  "title": "Raw Sippa",
+  "album": "Single",
+  "artist": "Baby Smoove",
+  "year": 2022,
+  "rating": 8
+}
 
 ### UPDATE
-PATCH http://localhost:3000/songs/4
+PATCH http://localhost:3000/songs/4.json
+Content-Type: application/json
+
+{
+  "title": "test"
+}
 
 ### DESTROY
 DELETE http://localhost:3000/songs/4

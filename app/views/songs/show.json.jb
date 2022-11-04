@@ -1,0 +1,10 @@
+{
+  id: @song.id,
+  title: @song.title,
+  album: @song.album,
+  artist: @song.artist,
+  year: @song.year,
+  rating: @song.rating,
+  created_at: @song.created_at,
+  updated_at: @song.updated_at
+}
